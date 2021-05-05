@@ -53,6 +53,7 @@ body{
     width: 50px;
     border: 5px solid rgb(58, 0, 58) ;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 #myList{
@@ -115,6 +116,10 @@ input{
     margin-top: -10px;
 }
 
+
+
+
+
 @media screen and (max-width: 1080px){
     *{
         margin: 0;
@@ -137,8 +142,8 @@ input{
 
     #todo{
         font-size: 12px;
-        /* margin-top: -25px; */
-        border: 5px solid black;
+        margin-top: -15px;
+        border: 5px solid rgb(117, 2, 108);
         background: rgb(117, 2, 108); 
         color: white;   
         font-family: 'Raleway', sans-serif;
@@ -150,36 +155,41 @@ input{
 
     #heading{
         font-family: 'Dancing Script', cursive;
-        font-size: 25px;
-        margin-top: -25px;
+        font-size: 15px;
+        margin-top: 15px;
     }
 
 
     .inputBox{
+        margin-top: 15px;
         display: flex;
 
     }
     .button{
         background: rgb(102, 0, 102);
-        height: 25px;
+        height: 30px;
         color: white;
+        font-size: 15px;
         font-family: 'Raleway', sans-serif;
-        margin-left: 15px;
+        margin-left: 13px;
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding-top: 5px;
+        padding-top: 0px;
         width: 50px;
         border: 5px solid rgb(58, 0, 58) ;
         border-radius: 15px;
+        cursor: pointer;
     }
 
     #myList{
-        font-size: 20px;
+        font-size: 20x;
         font-family: 'Raleway', sans-serif;
         /* line-height: 45px; */
         list-style: none;
-        margin-left: 10px;    
+        margin-left: 10px;
+        padding-bottom: 45px; 
+        padding-left: 20px;   
     }
     .listContainer{
         margin-top: 20px;
