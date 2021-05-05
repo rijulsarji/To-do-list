@@ -1,0 +1,30 @@
+#root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border: 5px solid black;
+    align-items: center;
+}
+
+.listt{
+    display: flex;
+    flex-direction: row;
+}
+.listt button{
+    width: 25px;
+    height: 25px;
+    margin-top: 13px;
+}
+.listt p{
+    margin-left: 50px;
+}
