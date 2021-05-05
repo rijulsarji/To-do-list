@@ -14,31 +14,32 @@
 </head>
 <body>
     <div id="container">
-        <div id="heading">
-            <h1>May</h1>
+        <div id="todo">
+            <p>TO-DO-LIST</p>
         </div>
-        <div>            
-            <div class="listt">
-                <button onclick=""></button>
-                    <p>Do assignments</p>    
-            </div>
-            <div class="listt">
-                <button onclick=""></button>
-                    <p>Do assignments</p>
-            </div>
-            <div class="listt">
-                <button onclick=""></button>
-                    <p>Do assignments</p>
-            </div>
-            <div class="listt">
-                <button onclick=""></button>
-                    <p>Do assignments</p>
-            </div>
-            <div class="listt">
-                <button onclick=""></button>
-                    <p>Do assignments</p>
-            </div>
+        
+        <div id="heading">
+            <h1 id="month"></h1>
+        </div>
+
+        <div>
+            <input type="text" id="myInput" placeholder="Enter your task">
+            <span>
+                <button onclick = "addItem()">Add</button>
+            </span>
+        </div>
+
+        <div class="listContainer">            
+            <ul id="myList">
+                <li>Do assignments</li>
+                <li class="checked">Buy groceries</li>
+                <li>Pay bills</li>
+                <li>Complete projects</li>
+            </ul>
+
         </div>
     </div>
+
+    <script src="./commands.js"></script>
 </body>
 </html>
