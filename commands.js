@@ -94,7 +94,7 @@ var date = new Date();
 var arrayMonth = date.getMonth();
 var months = ["January","February","March","April","May", "June", "July", "August", "September", "October", "November", "December"];
 
-var days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var arrayWeekDay = date.getDay();
 
 var currentMonth = months[arrayMonth];
